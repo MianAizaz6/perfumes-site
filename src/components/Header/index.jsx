@@ -45,6 +45,8 @@ const Header = () => {
                 </div>
             </div>
 
+
+
             {/* Mobile Nav */}
             <div className="flex justify-between md:hidden p-[18px]">
                 <Link to={'/'}>   <img src={logo} alt="" /></Link>

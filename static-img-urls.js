@@ -1,23 +1,23 @@
-const heroBG = './src/assets/hero-bg.png';
-const latestTrendBg = './src/assets/latest_trend.png';
-const latestTrendBg2 = './src/assets/latest_trend_2.png';
-const latestTrendBg3 = './src/assets/latest_trend_3.png';
-const tropicalRain ='./src/assets/tropical-rain.png';
-const summerHeat ='./src/assets/summer-heat.png';
-const cityScents ='./src/assets/city-scents.png';
-const leftArrow ='./src/assets/left-arrow.png';
-const rightArrow ='./src/assets/right-arrow.png';
-const star = './src/assets/star.png';
-const footerCol1 = './src/assets/footer-col1.png';
-const facebookIcon = './src/assets/icon-facebook.png';
-const twitterIcon = './src/assets/icon-twitter.png';
-const linkedInIcon = './src/assets/icon-linkedin.png';
-const instaIcon = './src/assets/icon-insta.png';
+const heroBG = 'assets/hero-bg.png';
+const latestTrendBg = 'assets/latest_trend.png';
+const latestTrendBg2 = 'assets/latest_trend_2.png';
+const latestTrendBg3 = 'assets/latest_trend_3.png';
+const tropicalRain ='assets/tropical-rain.png';
+const summerHeat ='assets/summer-heat.png';
+const cityScents ='assets/city-scents.png';
+const leftArrow ='assets/left-arrow.png';
+const rightArrow ='assets/right-arrow.png';
+const star = 'assets/star.png';
+const footerCol1 = 'assets/footer-col1.png';
+const facebookIcon = 'assets/icon-facebook.png';
+const twitterIcon = 'assets/icon-twitter.png';
+const linkedInIcon = 'assets/icon-linkedin.png';
+const instaIcon = 'assets/icon-insta.png';
 const logo = '/assets/Logo.png';
-const newCity = './src/assets/new-city-scent.png';
-const newSummer = './src/assets/new-summer-heat.png';
-const newTropical = './src/assets/new-tropicalrain.png';
-const hamburger = './src/assets/hamburger-menu-svgrepo-com (3).svg';
+const newCity = 'assets/new-city-scent.png';
+const newSummer = 'assets/new-summer-heat.png';
+const newTropical = 'assets/new-tropicalrain.png';
+const hamburger = 'assets/hamburger-menu-svgrepo-com (3).svg';
 
 export{
     heroBG,

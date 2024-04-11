@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <RibbonText />
             </div>
             <video autoPlay muted loop className="absolute inset-0 h-[89vh] w-full object-cover">
-                <source src="/src/assets/hero-video.mp4" type="video/mp4" />
+                <source src="assets/hero-video.mp4" type="video/mp4" />
             </video>
         </div>
     )
