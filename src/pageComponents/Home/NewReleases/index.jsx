@@ -15,7 +15,12 @@ const NewReleases = () => {
     autoplay: true,
     gap: '1rem',
     autoHeight: false,
-    pagination: false
+    pagination: false,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+    },
   }
 
   return (

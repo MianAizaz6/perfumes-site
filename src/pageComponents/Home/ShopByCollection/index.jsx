@@ -15,11 +15,16 @@ const ShopByCollection = () => {
     autoplay: true,
     gap: '1rem',
     autoHeight: false,
-    pagination: false
+    pagination: false,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+    },
   }
 
   return (
-    <div className="px-[60px] flex flex-col gap-[25px] relative">
+    <div className="md:px-[60px] px-[30px] flex flex-col gap-[25px] relative">
       <div>
         <h3 className="text-[28px] leading-[38px] font-normal">Shop by collection</h3>
       </div>
@@ -38,7 +43,7 @@ const ShopByCollection = () => {
               return (
                 <SplideSlide key={`${item.heading}${index}`}>
                   {/* <div className="md:mr-[16px] md:w-[320px] w-[340px] min- max-w-[400px] md:pl-0 pl-[16px]"> */}
-                    <CollectionCard title={item.heading} bgImage={item.bgimage} />
+                  <CollectionCard title={item.heading} bgImage={item.bgimage} />
                   {/* </div> */}
                 </SplideSlide>
               )
