@@ -21,15 +21,15 @@ const Header = () => {
                     <p className="text-[12px] font-normal leading-[18px] text-white">Account</p>
                 </div>
                 <div className="flex justify-between">
-                    <a href="/">
+                    <Link to="/">
                         <img src={logo} alt="" width={220} height={60} />
-                    </a>
+                    </Link>
                     <div className="flex gap-[20px] items-center">
-                        <a href="new-featured" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">New & Featured</a>
-                        <a href="perfumes" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Perfumes</a>
-                        <a href="colognes" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Colognes</a>
-                        <a href="sale" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Sale</a>
-                        <a href="privacy" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Contact</a>
+                        <Link to="/new-featured" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">New & Featured</Link>
+                        <Link to="/perfumes" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Perfumes</Link>
+                        <Link to="/colognes" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Colognes</Link>
+                        <Link to="/sale" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Sale</Link>
+                        <Link to="/privacy" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Contact</Link>
                     </div>
                     <div className=" hidden md:blockflex gap-[20px] items-center">
                         <SearchBox />
