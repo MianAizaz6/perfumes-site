@@ -24,7 +24,7 @@ const NewReleases = () => {
   }
 
   return (
-    <div className="px-[60px] flex flex-col gap-[25px] relative">
+    <div className="md:px-[60px] px-[30px] flex flex-col gap-[25px] relative">
       <div className="flex items-center gap-[30px]">
         <h3 className="text-[28px] leading-[38px] text-white font-normal">NEW RELEASES</h3>
         <p className="gradient-text">View All</p>
