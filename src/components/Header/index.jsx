@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="absolute hidden top-0 left-0 z-10 px-[16px] pt-[12px] md:flex flex-col gap-[10px] w-full" >
+            <div className="absolute hidden top-0 left-0 z-10 px-[50px] pt-[12px] md:flex flex-col gap-[10px] w-full" >
                 <div className="self-end flex gap-[15px]">
                     <p className="text-[12px] font-normal leading-[18px] text-white">Accessibility Statement</p>
                     <span className="border min-h-full w-[1px]" />
@@ -31,7 +31,7 @@ const Header = () => {
                         <Link to="/sale" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Sale</Link>
                         <Link to="/privacy" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Contact</Link>
                     </div>
-                    <div className=" hidden md:blockflex gap-[20px] items-center">
+                    <div className=" flex md:blockflex gap-[20px] items-center">
                         <SearchBox />
                         <div className="flex gap-[15px] mr-[30px]">
                             <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">

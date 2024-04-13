@@ -1,7 +1,7 @@
 const CollectionCard = ({ bgImage, title }) => {
   return (
-    <div className="flex flex-col shadow-[0px_4px_22px_-3px_#00000040]  bg-gradient-to-tr overflow-hidden justify-evenly from-[#2B2B2B] to-[#101010] rounded-[9px] h-[400px]">
-      <img className="h-[300px] object-fill" src={bgImage} alt="" />
+    <div className="flex flex-col shadow-[0px_4px_22px_-3px_#00000040]  bg-gradient-to-tr overflow-hidden justify-evenly from-[#2B2B2B] to-[#101010] rounded-[9px] md:h-[650px] h-[500px]">
+      <img className="h-[300px] object-contain" src={bgImage} alt="" />
       <div className="flex justify-between items-center px-[30px]">
         <h3 className="text-[36px] leading-[48px] ">{title}</h3>
         <button className="border-[2px] rounded-full w-[36px] h-[36px] flex items-center justify-center">
