@@ -2,7 +2,7 @@ import { facebookIcon, instaIcon, linkedInIcon, twitterIcon } from "../../../sta
 
 const Footer = () => {
     return (
-        <div className="flex flex-col bg-black md:gap-[40px] gap-[10px] md:pt-[90px] pt-[30px] pb-[15px] px-[40px] md:pb-[30px] md:px-[120px]">
+        <div className="flex flex-col bg-black md:gap-[40px]  gap-[10px] md:pt-[90px] pt-[30px] pb-[15px] px-[40px] md:pb-[30px] md:px-[120px]  mx-auto">
             <div className="flex flex-wrap md:gap-[120px] gap-[40px] justify-between w-fit mx-auto mb-[60px]">
                 <div className="flex flex-col gap-[20px]">
                     <h3 className="text-[18px] font-bold leading-[24px] text-white">Featured</h3>

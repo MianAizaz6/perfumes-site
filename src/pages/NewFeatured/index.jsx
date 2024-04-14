@@ -5,14 +5,15 @@ import NewFeaturedSlide from "../../pageComponents/NewFeatured/NewFeaturedSlide"
 const NewFeatured = () => {
     const splideOptions = {
         type: 'loop',
-        direction:"ttb",
+        direction: "ttb",
         perPage: 1,
         perMove: 1,
         rewind: true,
         autoplay: true,
         paginationDirection: 'ttb',
         gap: '1rem',
-        height:'100vh',
+        height: '100vh',
+        wheel: true,
     }
 
 
@@ -20,16 +21,16 @@ const NewFeatured = () => {
         <div className="relative newfeatured">
             {
                 <Splide options={splideOptions}>
-                    
-                        {
-                            NewFeaturedSlides.map((item, index) => {
-                                return (
-                                    <SplideSlide key={`${item.heading}${index}`}>
-                                        <NewFeaturedSlide bgImage={item.bgImage} featuredImg={item.featuredImg} heading={item.heading} subheading={item.subheading} />
-                                    </SplideSlide>
-                                )
-                            })
-                        }
+
+                    {
+                        NewFeaturedSlides.map((item, index) => {
+                            return (
+                                <SplideSlide key={`${item.heading}${index}`}>
+                                    <NewFeaturedSlide bgImage={item.bgImage} featuredImg={item.featuredImg} heading={item.heading} subheading={item.subheading} />
+                                </SplideSlide>
+                            )
+                        })
+                    }
                 </Splide>
             }
         </div>
