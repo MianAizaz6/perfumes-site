@@ -11,7 +11,7 @@ const collectionData = [
     },
     {
         bgimage:cityScents,
-        heading:"City Scents"
+        heading:"City Scents "
     },
     {
         bgimage:summerHeat,
