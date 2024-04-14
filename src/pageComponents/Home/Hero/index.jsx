@@ -12,10 +12,10 @@ const HeroSection = () => {
                     <Button btnText={"Shop Cologne"} dark={true} />
                 </div>
             </div>
-            <div className="absolute flex md:bottom-[45px] bottom-[30px] left-0 z-10 textScrollToLeft  w-[200%]">
+            <div className="absolute flex md:bottom-[45px] bottom-[30px] left-0 z-10 textScrollToLeft w-[800%] md:w-[200%]">
                 <RibbonText />
             </div>
-            <video autoPlay muted loop className="absolute inset-0 h-[89vh] w-full object-cover">
+            <video autoPlay muted loop className="absolute inset-0 h-[89vh] w-full object-none md:object-cover">
                 <source src="/src/assets/hero-video.mp4" type="video/mp4" />
             </video>
         </div>

@@ -14,7 +14,7 @@ const LatestTrends3 = () => {
         </div>
       </div>
       <img className="absolute inset-0 h-[70vh] w-full object-cover" src={latestTrendBg3} alt="" />
-      <div className="absolute bottom-[30px] left-0 z-10 textScrollToLeft  w-[200%]">
+      <div className="absolute bottom-[30px] left-0 z-10 textScrollToLeft w-[800%] md:w-[200%]">
         <RibbonText />
       </div>
     </div>

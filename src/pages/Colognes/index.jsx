@@ -6,7 +6,7 @@ const Colognes = () => {
         <div className="relative top-[120px]">
             <div className="h-[2px] borderstyle" />
             <div className="relative h-[24px] overflow-hidden">
-                <div className="absolute bottom-[0px] left-0 z-10 textScrollToLeft w-[200%]">
+                <div className="absolute bottom-[0px] left-0 z-10 textScrollToLeft w-[800%] md:w-[200%]">
                     <RibbonText />
                 </div>
             </div>

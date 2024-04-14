@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-wrap md:gap-[60px] gap-[20px]">
+            <div className="flex flex-wrap md:gap-[60px] mx-auto gap-[20px]">
                 <div className="flex md:flex-col gap-[20px] flex-wrap">
                     <h3 className="text-[18px] font-bold leading-[24px] capitalize text-white">GIFT CARDS</h3>
                     <h3 className="text-[18px] font-bold leading-[24px] capitalize text-white">BECOME A MEMBER</h3>
