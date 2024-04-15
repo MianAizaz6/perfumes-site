@@ -23,14 +23,14 @@ const HomeFooter = () => {
     }
 
     return (
-        <div className=" min-h-[800px] flex md:flex-row flex-col md:py-[90px] py-[15px] relative overflow-hidden">
+        <div className="md:min-h-fit min-h-[800px] flex md:flex-row flex-col md:py-[90px] py-[15px] relative overflow-hidden">
             <div className="flex items-start md:items-end relative justify-center  overflow-hidden md:h-[500px] h-[800px]">
                 <div className="z-20 p-[60px] flex flex-col gap-[20px] relative bottom-10">
                     <h2 className="md:text-[54px] text-[25px] leading-[70px] md:font-bold text-white">OUR MISSION</h2>
                     <p className="text-[16px] leading-[20px] text-white capitalize">example text for this sections paragraph text but longer</p>
                     <Button btnText={"About Us"} />
                 </div>
-                <img className="absolute bottom-10 h-full" src={footerCol1} alt="" />
+                <img className="absolute bottom-10 " src={footerCol1} alt="" />
             </div>
 
             <div className="md:w-[70%]">

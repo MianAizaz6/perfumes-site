@@ -24,7 +24,7 @@ const Layout = () => {
                 <Route path="/sale" element={<Sale />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
             </Routes>
-            {location.pathname === '/new-featured' ? undefined : <> <div className="hidden md:block"><Footer /> </div> <div className="block md:hidden"> <MobileFooter /> </div>  </>}
+            {location.pathname === '/new-featured' ? undefined : <> <div className="hidden md:flex"><Footer /> </div> <div className="block md:hidden"> <MobileFooter /> </div>  </>}
         </>
     )
 }
