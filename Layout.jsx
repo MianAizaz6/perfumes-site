@@ -7,6 +7,7 @@ import Perfumes from "./src/pages/Perfumes";
 import Colognes from "./src/pages/Colognes";
 import Sale from "./src/pages/Sale";
 import PrivacyPolicy from "./src/pages/Privacy";
+import MobileFooter from "./src/components/mobile-footer";
 
 
 const Layout = () => {
@@ -23,7 +24,7 @@ const Layout = () => {
                 <Route path="/sale" element={<Sale />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
             </Routes>
-            {location.pathname === '/new-featured' ? undefined : <Footer />}
+            {location.pathname === '/new-featured' ? undefined : <> <div className="hidden md:block"><Footer /> </div> <div className="block md:hidden"> <MobileFooter /> </div>  </>}
         </>
     )
 }
