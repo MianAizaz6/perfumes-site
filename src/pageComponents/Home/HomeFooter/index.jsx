@@ -6,7 +6,7 @@ const HomeFooter = () => {
         <div className=" bg-[#FFFFFF] flex md:flex-row flex-col py-[90px] relative overflow-hidden">
             <div className="flex items-end relative justify-center  overflow-hidden">
                 <div className="z-20 p-[60px] flex flex-col gap-[20px] relative bottom-10">
-                    <h2 className="text-[54px] leading-[70px] font-bold text-white">OUR MISSION</h2>
+                    <h2 className="md:text-[54px] text-[45px] leading-[70px] font-bold text-white">OUR MISSION</h2>
                     <p className="text-[16px] leading-[20px] text-white capitalize">example text for this sections paragraph text but longer</p>
                     <Button btnText={"About Us"} />
                 </div>

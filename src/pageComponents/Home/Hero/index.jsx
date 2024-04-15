@@ -5,9 +5,9 @@ const HeroSection = () => {
     return (
         <div className="min-h-[90vh] relative flex md:items-end items-center md:px-[60px] px-[30px] py-[120px] overflow-hidden">
             <div className="flex flex-col gap-[20px] z-10 relative">
-                <h2 className="text-[45px] leading-[60px] font-bold text-white">Indulge in the allure of luxury</h2>
+                <h2 className="md:text-[45px] md:leading-[60px] text-[35px] leading-[40px] font-bold text-white">Indulge in the allure of luxury</h2>
                 <p className="text-[16px] leading-[20px] text-white capitalize">example text for this sections paragraph text but longer for vsual.  example text for this sections paragraph text but longer for vsual</p>
-                <div className="flex gap-[10px]">
+                <div className="flex gap-[10px] mt-3">
                     <Button btnText={"Shop Perfume"} />
                     <Button btnText={"Shop Cologne"} dark={true} />
                 </div>

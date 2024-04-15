@@ -4,7 +4,7 @@ import RibbonText from "../../../components/RibbonText"
 
 const LatestTrends2 = () => {
   return (
-    <div className="relative h-[70vh] overflow-hidden flex px-[60px] items-center">
+    <div className="relative h-[70vh] overflow-hidden flex md:px-[60px] px-[30px] items-center">
       <div className="flex flex-col gap-[20px] z-10 relative">
         <h2 className="text-[45px] leading-[60px] font-bold text-white">Indulge in the allure of luxury</h2>
         <p className="text-[16px] leading-[20px] text-white capitalize">example text for this sections paragraph text but longer for vsual.  example text for this sections paragraph text but longer for vsual</p>
